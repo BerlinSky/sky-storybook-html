@@ -1,7 +1,15 @@
 import { document, console } from 'global';
 import { storiesOf } from '@storybook/html';
 
+import { withLinks } from '@storybook/addon-links';
+
 import './main.scss';
+
+import welcome from './welcome.html';
+
+storiesOf('Welcome', module)
+  .addDecorator(withLinks)
+  .add('Overview', () => welcome);
 
 storiesOf('Demo', module)
   .add('heading', () => '<h1>Hello World</h1>')
