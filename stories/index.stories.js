@@ -7,6 +7,7 @@ import './main.scss';
 
 import welcome from './welcome.html';
 
+
 storiesOf('Welcome', module)
   .addDecorator(withLinks)
   .add('Overview', () => welcome);
