@@ -7,7 +7,7 @@ import './main.scss';
 
 const text = 'Testing the a11y addon';
 
-storiesOf('Addons|a11y', module)
+storiesOf('a11y', module)
   .addDecorator(checkA11y)
   .addParameters({ options: { selectedAddonPanel: '@storybook/addon-a11y/panel' } })
   .add('Default', () => `<button></button>`)
