@@ -19,6 +19,7 @@
     "@storybook/addon-backgrounds": "^4.1.7",
     "@storybook/addon-centered": "^4.1.7",
     "@storybook/addon-links": "^4.1.7",
+    "@storybook/addon-viewport": "^4.1.7",
     "@storybook/addons": "^4.1.7",
     "@storybook/html": "^4.1.7",
     "babel-loader": "^8.0.5"
