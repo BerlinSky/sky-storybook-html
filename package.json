@@ -14,6 +14,7 @@
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.2.2",
+    "@pickra/copy-code-block": "^1.1.2",
     "@storybook/addon-a11y": "^4.1.7",
     "@storybook/addon-actions": "^4.1.7",
     "@storybook/addon-backgrounds": "^4.1.7",
@@ -22,6 +23,7 @@
     "@storybook/addon-viewport": "^4.1.7",
     "@storybook/addons": "^4.1.7",
     "@storybook/html": "^4.1.7",
-    "babel-loader": "^8.0.5"
+    "babel-loader": "^8.0.5",
+    "highlight.js": "^9.13.1"
   }
 }
